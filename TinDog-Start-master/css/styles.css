@@ -1,0 +1,210 @@
+
+
+body {
+  text-align: center;
+}
+
+h2, h3 {
+  font-family:"fantasy";
+  font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1rem;
+ }
+
+
+
+/*title section */
+#title {
+  background-color: #ff4c68;
+  color: #FFF;
+  text-align: left;
+}
+.container-fluid {
+  padding:3% 10%;
+}
+
+.title-image
+{
+width: 20%;
+transform: rotate(25deg);
+z-index: 0;
+position: absolute;
+}
+
+
+
+ /* Headings */
+ .big-Heading {
+   font-family: "Rochester";
+   font-size: 4rem;
+   line-height: 1.5;
+ }
+
+ .section-heading {
+   font-size: 3rem;
+   line-height: 1
+ }
+
+
+
+
+/*Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+
+
+/* Buttons */
+.btn {
+  margin: 5% 3% 5% 3%
+}
+
+
+
+
+/*Features-Section*/
+ #features {
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+ }
+
+ .featurecol {
+   padding: 5%
+ }
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.imgsinfo {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.imgsinfo:hover {
+  color: #ff4c68;
+}
+
+
+
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.testimonial-img {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+
+
+
+/* Press Section */
+#press {
+background-color: #ef8172;
+padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+/*Pricing*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+
+
+
+/*Responsive Movilephon */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 50%;
+    position: static;
+    transition: rotate(0);
+  }
+}
+
+
+
+
+
+/*Call to action */
+#cta {
+  background-color: #ff4c88;
+}
+
+.cta-tittle {
+  color: #fff;
+  font-family:"Rochester" ;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  padding-top: 3%;
+  font-weight: bold;
+}
+
+
+
+
+/* End section */
+#footer {
+  padding: 3%;
+  background-color: #fff;
+}
+
+ .social-icons {
+   padding: 20px 10px;
+ }
